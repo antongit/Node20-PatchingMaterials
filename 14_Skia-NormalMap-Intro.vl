@@ -123,13 +123,13 @@
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="302,979,225,19" Id="HWFF3bQzejTMfqO7CwPG0g">
+          <Node Bounds="282,960,245,19" Id="HWFF3bQzejTMfqO7CwPG0g">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="CS6bgk4FhmzLSQqlq1HBXF" Name="Bounds" Kind="InputPin" DefaultValue="1000, 40, 786, 432" />
-            <Pin Id="C2DcjA31IKwPdNEyeD2qvi" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="C2DcjA31IKwPdNEyeD2qvi" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="KfMXzxQ94yOOlzUwUhD488" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="NISItm4Fz0MPPU7Zd80uwL" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="Hi2n6Quf7OVOjKpiANh9Ax" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />

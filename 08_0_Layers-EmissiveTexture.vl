@@ -54,7 +54,7 @@
             <Pin Id="SkOLXArfggUMDwFlS25iFn" Name="Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="IrmXhTQXvosQcwaeKy4DY2" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="284,964,225,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
+          <Node Bounds="265,970,245,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -64,7 +64,7 @@
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="EH1DtkcS0U1NicKwDcXGqG" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="EH1DtkcS0U1NicKwDcXGqG" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="RuQDvV6KR2AMOt14nuIn6I" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="L7p36S675DdNMzihX5TUGn" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="E3yb29NXupoNFatlRqdcvs" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
@@ -214,7 +214,7 @@
             <Pin Id="BIlJcpK3kWYMJ7gXpF295x" Name="Scale" Kind="InputPin" IsHidden="true" />
             <Pin Id="MKhAaNoagNUPug9QckEfcm" Name="Offset" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Pad Id="OvD6AjJGOdFQCnZbPZlPh5" Comment="Intensity" Bounds="527,837,35,15" ShowValueBox="true" isIOBox="true" Value="5">
+          <Pad Id="OvD6AjJGOdFQCnZbPZlPh5" Comment="Intensity" Bounds="527,837,35,15" ShowValueBox="true" isIOBox="true" Value="8">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>

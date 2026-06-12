@@ -6,7 +6,8 @@ Node20 Forum for Digital Arts:
 https://20.nodeforum.org/
 
 **Update 11.06.2026:**  
-Patches are updated to work with the current stable vvvv gamma 7.2  
+Patches are updated to work with the current stable vvvv gamma 7.2.
+By @mhusinsky 🚀.
 **Update 30.04.2021:**  
 Patches are updated to work with the current stable vvvv gamma 2021.3.2.  
 Massive thanks to @mhusinsky.

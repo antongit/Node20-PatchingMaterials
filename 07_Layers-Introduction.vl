@@ -54,7 +54,7 @@
             <Pin Id="KnI1QMvvWGFP3MpwsPRhPV" Name="Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="IrmXhTQXvosQcwaeKy4DY2" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="160,853,225,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
+          <Node Bounds="140,860,245,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -64,7 +64,7 @@
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="P1ybBK33mayQOEVK3gpC57" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="P1ybBK33mayQOEVK3gpC57" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="UqMkZliYOAUPuAdmRJOsPo" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="Cpf9HWcdwArMsQFaHFvMk3" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="K2PDUJKWx2YMl1YiTD9kqF" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
@@ -507,7 +507,7 @@
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="326,810,225,19" Id="B4XgC1hMg2eL70e5Er1wNO">
+          <Node Bounds="300,810,225,19" Id="B4XgC1hMg2eL70e5Er1wNO">
             <p:NodeReference LastCategoryFullName="Stride.Rendering" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="PostFX" />
@@ -609,6 +609,15 @@
             <Pin Id="LeWHuNYrYmnNTzq8rGwHSA" Name="Enabled" Kind="InputPin" />
             <Pin Id="VRXqp2Urn20OscSfwczjGC" Name="Output" Kind="OutputPin" />
           </Node>
+          <Pad Id="Hirr3kQX9mbN1rEEURBGfa" Bounds="773,282,72,19" ShowValueBox="true" isIOBox="true" Value="Connect &gt;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="JvGRH0p3Me6QRMTykYfquM" Name="Create" />
         <Patch Id="Ik211EWiBsHNWvxt1OWWid" Name="Update" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Mf15e5b5JmqPo159xvCcAm" LanguageVersion="2025.7.2" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="QmR1NMkkRChOC3NjKrWNV7" LanguageVersion="2025.7.2" Version="0.128">
   <NugetDependency Id="VK9mMiYBNL5Or5RUJ2hBCv" Location="VL.CoreLib" Version="2025.7.2" />
   <Patch Id="Ikq3i6BHmIhMSqNx7Q8zt0">
     <Canvas Id="L9FzL1YSKbHPg95RilLGki" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
@@ -66,7 +66,7 @@
             <Pin Id="BYtJHqYNo4CPK1l8v3kIsS" Name="Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="IrmXhTQXvosQcwaeKy4DY2" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="207,910,225,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
+          <Node Bounds="187,920,245,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -76,7 +76,7 @@
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="QA9j1hkOudVP5JKrBvwFed" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QA9j1hkOudVP5JKrBvwFed" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="OILmfGsR4AuMtPzaJ0CMmF" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="C6wjHMfRlS2N1vecCoj0eE" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="CXKCrZPVEurMVohf1c75G3" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
