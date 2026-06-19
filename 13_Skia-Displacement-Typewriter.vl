@@ -54,7 +54,7 @@
             <Pin Id="MgAcMxvJBHJOPGgDlWj2Em" Name="Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="IrmXhTQXvosQcwaeKy4DY2" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="280,1049,225,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
+          <Node Bounds="262,1030,245,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -64,7 +64,7 @@
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="HEfbSEFefgqOpMYnB8nKxI" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="HEfbSEFefgqOpMYnB8nKxI" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="OcLd9NjMN2XPBlhuYMyfOQ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="HS1RqVxKYwpMVjiwtipVYV" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="KWcKFVuVwPGNPM9tIoqaE7" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
@@ -158,7 +158,7 @@
             <Pin Id="GwhuQWvHa1RMwPnlZ8LC9u" Name="Specular Cube Map Size" Kind="InputPin" IsHidden="true" />
             <Pin Id="Hoe86bKViwLPvHClea2Vna" Name="Force Build" Kind="InputPin" />
             <Pin Id="Otvqg5iq0TxMYYCVjh1UkG" Name="Background Intensity" Kind="InputPin" />
-            <Pin Id="FgxxZi7RsxLLwuM7Emw0QA" Name="Background Enabled" Kind="InputPin" DefaultValue="True">
+            <Pin Id="FgxxZi7RsxLLwuM7Emw0QA" Name="Background Enabled" Kind="InputPin" DefaultValue="False">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>

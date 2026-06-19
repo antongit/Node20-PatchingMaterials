@@ -88,7 +88,7 @@
             <Pin Id="CdIpFAXYfWILO3RnEEz0EU" Name="Specular Cube Map Size" Kind="InputPin" IsHidden="true" />
             <Pin Id="IBcwjq0UDlfLAcMqWg5q1R" Name="Force Build" Kind="InputPin" />
             <Pin Id="Ckyvj7JMi8vLP6hULgSj1L" Name="Background Intensity" Kind="InputPin" />
-            <Pin Id="M9gG3cUWlDtNv8rl7PYxWM" Name="Background Enabled" Kind="InputPin" />
+            <Pin Id="M9gG3cUWlDtNv8rl7PYxWM" Name="Background Enabled" Kind="InputPin" DefaultValue="False" />
             <Pin Id="N1IdBcflBZsLIvgDy7wB2S" Name="Component" Kind="InputPin" />
             <Pin Id="CjGjogIQttuNnqpgarIESB" Name="Children" Kind="InputPin" />
             <Pin Id="R5TEh1WCWhDLWD3fRTdFPt" Name="Name" Kind="InputPin" />
@@ -119,13 +119,13 @@
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="110,1118,225,19" Id="HWFF3bQzejTMfqO7CwPG0g">
+          <Node Bounds="90,1110,245,19" Id="HWFF3bQzejTMfqO7CwPG0g">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="CS6bgk4FhmzLSQqlq1HBXF" Name="Bounds" Kind="InputPin" DefaultValue="1000, 40, 786, 432" />
-            <Pin Id="FtwmVtjgm1MQSudPNYger9" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="FtwmVtjgm1MQSudPNYger9" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="C92yTWVzaltNqx5aHgDtNd" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="DV57GjPOgwAOdfHrxMhKMb" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="NUC7g7U24TbPN4OelgfE8y" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
@@ -519,7 +519,7 @@
             <Pin Id="P42OHBHQbBPLN4IAtudbTq" Name="Input" Kind="StateInputPin" />
             <Pin Id="HP1W0ujH9p0M0WilZ1Hvt4" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="OubjrxvrGzYOLka7bVrucB" Comment="Radius" Bounds="82,860,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="OubjrxvrGzYOLka7bVrucB" Comment="Radius" Bounds="82,860,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>

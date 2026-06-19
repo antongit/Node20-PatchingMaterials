@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="DKDnx8Pul5gOfSlBRMPJsf">
         <Canvas Id="KeJkz17lwYXOx0fJZ0FJx1" CanvasType="Group">
-          <Node Bounds="202,1003,225,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
+          <Node Bounds="182,1010,245,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -25,7 +25,7 @@
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="IuzIP9TyPBVOLuS9oAfsxR" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="IuzIP9TyPBVOLuS9oAfsxR" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="AHr6Dg89qMgO4x0FWaHdU5" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="BlNo1MPbrX0LTvOywQpf3O" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="QxHyxZ6S5FAL1kcrL2Vf3o" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />

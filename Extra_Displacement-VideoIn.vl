@@ -59,7 +59,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CVTSahGx3qBPWe5lNw7tye" Name="Bounds" Kind="InputPin" DefaultValue="1119, 119, 786, 663">
+            <Pin Id="CVTSahGx3qBPWe5lNw7tye" Name="Bounds" Kind="InputPin" DefaultValue="909, 135, 786, 663">
               <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -341,7 +341,7 @@
             <Pin Id="HnVe62ZY0tALkIEBYuS0mt" Name="Roll" Kind="InputPin" />
             <Pin Id="IhwsGy8NF0GQAoYoBnRAbH" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="N5MszT0YBm2NbuCTx69XuO" Comment="Yaw" Bounds="160,447,35,15" ShowValueBox="true" isIOBox="true" Value="-0.25">
+          <Pad Id="N5MszT0YBm2NbuCTx69XuO" Comment="Yaw" Bounds="160,447,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -351,7 +351,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="DMhCYlgKPpKNMltBm2EGot" Bounds="346,90,250,67" ShowValueBox="true" isIOBox="true" Value="This example is using the VL.Video nuget (for accessing the camera). Check it under the `Dependencies`.">
+          <Pad Id="DMhCYlgKPpKNMltBm2EGot" Bounds="346,102,363,52" ShowValueBox="true" isIOBox="true" Value="This example is using the VL.Video nuget (for accessing the camera). Check it under the `Dependencies`.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>

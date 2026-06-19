@@ -33,7 +33,7 @@
             <Pin Id="MzXwF43v0uUOsqYnmtMGMb" Name="Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="IrmXhTQXvosQcwaeKy4DY2" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="181,949,225,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
+          <Node Bounds="162,950,245,19" Id="MXH4oNlxPQBLjBeTCSEvWR">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -43,7 +43,7 @@
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="O4TC3UvdS8pPmNIPqFoNsr" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="O4TC3UvdS8pPmNIPqFoNsr" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="J1p4nVw6mzJMFo7lIBbFTF" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="QJbziCUlXQ1LhAZDP2Ei48" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="DuxuOgsTqINLuNKd0xy8Fq" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />

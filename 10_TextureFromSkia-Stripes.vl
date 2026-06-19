@@ -184,7 +184,7 @@
             <Pin Id="PhQVKli9hyVMjOouQbmonR" Name="Scale" Kind="InputPin" IsHidden="true" />
             <Pin Id="Uplp7Gz6KA5OV5GFE7UjO5" Name="Offset" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Pad Id="IYdTD8vOGxVPRLSYdEcqFb" Comment="Tessellation" Bounds="156,593,35,15" ShowValueBox="true" isIOBox="true" Value="50">
+          <Pad Id="IYdTD8vOGxVPRLSYdEcqFb" Comment="Tessellation" Bounds="156,590,35,15" ShowValueBox="true" isIOBox="true" Value="50">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -404,7 +404,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KHi4PItMmSoOjueVBZrTxg" Comment="Radius" Bounds="72,590,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+          <Pad Id="KHi4PItMmSoOjueVBZrTxg" Comment="Radius" Bounds="57,590,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
