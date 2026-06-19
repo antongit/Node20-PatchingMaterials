@@ -5,7 +5,7 @@ Patches and Assets for the 'Pathing Materials' in VL.Stride Workshop at Node20.
 Node20 Forum for Digital Arts:  
 https://20.nodeforum.org/
 
-**Update 11.06.2026:**  
+**Update 19.06.2026:**  
 Patches are updated to work with the current stable vvvv gamma 7.2.
 By @mhusinsky 🚀.
 **Update 30.04.2021:**  
