@@ -38,7 +38,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CVTSahGx3qBPWe5lNw7tye" Name="Bounds" Kind="InputPin" DefaultValue="1012, 76, 786, 776">
+            <Pin Id="CVTSahGx3qBPWe5lNw7tye" Name="Bounds" Kind="InputPin" DefaultValue="322, 74, 786, 776">
               <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -272,6 +272,20 @@
             <Pin Id="UmLRauMvHGzP0hTBbAi6iy" Name="Scale" Kind="InputPin" IsHidden="true" />
             <Pin Id="QyLGbnhXKo3NMCt3oWiyqr" Name="Offset" Kind="InputPin" IsHidden="true" />
           </Node>
+          <Pad Id="DJmMNC0K0nYLpaINXypmdC" Comment="Radius" Bounds="72,370,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="QrXZpARLGb0PYpSQOqoJxx" Bounds="590,334,239,84" ShowValueBox="true" isIOBox="true" Value="By providing only the Diffuse Texture and lowering the Roughness one archives very polished look, like the polished stone here.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="JvGRH0p3Me6QRMTykYfquM" Name="Create" />
         <Patch Id="Ik211EWiBsHNWvxt1OWWid" Name="Update" />
@@ -293,6 +307,7 @@
         <Link Id="EVNOXwZNv8WNe1UyFhWqnD" Ids="Dr0jhwcDaezQKN3G8GvsNy,IBdob5oV61YN4OEHacz2tY" />
         <Link Id="J6ZAHrQxu4uLTRhKZKidrM" Ids="MmuMWs1UuDpPWbeqtBAErK,RThv9MpziSvPPaFbyO8K1E" />
         <Link Id="HLMqTohtJ4lLmUc6VKDYGE" Ids="TeA07m1RbZNNBA2GSt7fGL,Mq5ELSF7GqQLaRkGv1Lhhp" />
+        <Link Id="JhnadVC9oT0O0u502nMci6" Ids="DJmMNC0K0nYLpaINXypmdC,QR1RtLpJQq2MuB9FaiiTEP" />
       </Patch>
     </Node>
   </Patch>

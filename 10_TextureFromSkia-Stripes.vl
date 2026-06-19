@@ -399,8 +399,13 @@
             <Pin Id="OH7ZEZOWfuZQWmNmJ38fxt" Name="Scale" Kind="InputPin" IsHidden="true" />
             <Pin Id="TLMfbktpIgaPHnVta4lgKk" Name="Offset" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Pad Id="AcA6jWHmwVzPgps1PaDgcW" Comment="Amount" Bounds="503,689,35,15" ShowValueBox="true" isIOBox="true" Value="1.02">
+          <Pad Id="AcA6jWHmwVzPgps1PaDgcW" Comment="Amount" Bounds="503,689,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="KHi4PItMmSoOjueVBZrTxg" Comment="Radius" Bounds="72,590,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
@@ -437,6 +442,7 @@
         <Link Id="KlCiuvAdLmuQBfYYHeSFmy" Ids="H2UQhUGn1vuL0hUMHePG6m,GvZL1Iu4l5KLn0yPPdIQf1" />
         <Link Id="LBV0DbHoAbwOV3A2hOsMow" Ids="BBf4iURMAXFLTFx5qsacWZ,F7PybcaBtPYQW18NntBXiL" />
         <Link Id="AIf4KnOiOjqNry9C997f5N" Ids="AcA6jWHmwVzPgps1PaDgcW,E5OApJvzw1zM0hty54DDpW" />
+        <Link Id="LXUHdYiGOSBPrtSJb2lIOO" Ids="KHi4PItMmSoOjueVBZrTxg,QR1RtLpJQq2MuB9FaiiTEP" />
       </Patch>
     </Node>
   </Patch>

@@ -363,12 +363,12 @@
             <Pin Id="MdOo84tYHIzO9o14fXkxOt" Name="Resource Format" Kind="OutputPin" />
             <Pin Id="MN9KK8JoGYXPZVPgkwvBhJ" Name="Exists" Kind="OutputPin" />
           </Node>
-          <Pad Id="L9gjRTftHymQZjjVxhxZ6q" Comment="NDepth" Bounds="713,360,35,15" ShowValueBox="true" isIOBox="true" Value="0.74">
+          <Pad Id="L9gjRTftHymQZjjVxhxZ6q" Comment="NDepth" Bounds="736,360,35,15" ShowValueBox="true" isIOBox="true" Value="0.74">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="PqvPptgGKZdOHPoiTOleOz" Comment="Radius" Bounds="619,360,35,15" ShowValueBox="true" isIOBox="true" Value="0.43">
+          <Pad Id="PqvPptgGKZdOHPoiTOleOz" Comment="Radius" Bounds="642,360,35,15" ShowValueBox="true" isIOBox="true" Value="0.43">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -435,11 +435,15 @@
             <Pin Id="S70xrEl0a3kNTecdVDTAMi" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="DsOf66yCMmRNN5JBFIRcT6" Comment="" Bounds="703,470,190,132" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="THOibJbZBkHMTtxSVpJP6t" Comment="R" Bounds="822,320,44,28" ShowValueBox="true" isIOBox="true" Value="100, 100">
-            <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Vector2" />
-            </p:TypeAnnotation>
-          </Pad>
+          <Node Bounds="569,350,63,19" Id="RSf1QK8FY15N4sjC7714DU">
+            <p:NodeReference LastCategoryFullName="Primitive.Int2" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Vector2Type" Name="Int2" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="ToVector2" />
+            </p:NodeReference>
+            <Pin Id="TvDWPne10FrNwnjjqC9yCt" Name="Input" Kind="StateInputPin" />
+            <Pin Id="TJ6cOqqX9diLfMCEQc5SxU" Name="Result" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="JvGRH0p3Me6QRMTykYfquM" Name="Create" />
         <Patch Id="Ik211EWiBsHNWvxt1OWWid" Name="Update" />
@@ -475,7 +479,8 @@
         <Link Id="FeYtg9auAhzOGYvgjDD9HS" Ids="Pzv0MfgVSKgN8fDZXyebh6,G3K4HoWUnRSL2TVW4GTOVf" />
         <Link Id="G7n6EkAWQuWN2zwUj37bsm" Ids="Et7ciBMW3tcOEc935HBxYd,AjvTg94YYFRLgVnQGqL7da" />
         <Link Id="KKPtmpzhOY2LCa5m5L8gHV" Ids="VF0WQ50kEuUPtoJbwJ9EVw,DsOf66yCMmRNN5JBFIRcT6" />
-        <Link Id="VxvSknxN3CoN0F37N3RFfy" Ids="THOibJbZBkHMTtxSVpJP6t,C5OsTdVAROqNbjIkDByPTx" />
+        <Link Id="NB9dCRlgpm7OsbuSfmAldd" Ids="K3gjKRQ0JDkPowC67NTlCy,TvDWPne10FrNwnjjqC9yCt" />
+        <Link Id="BMR4GXC8l5EPCGhYOHPXmo" Ids="TJ6cOqqX9diLfMCEQc5SxU,C5OsTdVAROqNbjIkDByPTx" />
       </Patch>
     </Node>
   </Patch>

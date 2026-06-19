@@ -558,6 +558,11 @@
             <Pin Id="VkZGgyTLDXONo84JnXmKKC" Name="Enabled" Kind="InputPin" />
             <Pin Id="J57OZKwD3CCPpw2PIeqRC0" Name="Output" Kind="OutputPin" />
           </Node>
+          <Pad Id="V6WVdDBaehuQcKhrHdfAdG" Comment="Radius" Bounds="126,575,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="JvGRH0p3Me6QRMTykYfquM" Name="Create" />
         <Patch Id="Ik211EWiBsHNWvxt1OWWid" Name="Update" />
@@ -594,6 +599,7 @@
         <Link Id="DSQQdWLRMalMECyNhsNNVq" Ids="NbDb38G3y2HL3OVcRr2m5Z,JkoN2nmxMhdMOzftkiWaBl" />
         <Link Id="GLRX7nIkjUlM8oRTENNIQz" Ids="UTJTRbjPWT3MyGbA0E6vW9,RQKHF08f2vNMcBE73uFKX6" />
         <Link Id="KFD06vmY2dkPdkos3C51Dg" Ids="J57OZKwD3CCPpw2PIeqRC0,QRCs6hGeSNHL1tqWNs7fQU" />
+        <Link Id="Ox1He7Qx0WOOZFK7H8pMrc" Ids="V6WVdDBaehuQcKhrHdfAdG,QR1RtLpJQq2MuB9FaiiTEP" />
       </Patch>
     </Node>
   </Patch>
